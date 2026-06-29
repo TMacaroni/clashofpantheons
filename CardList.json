@@ -1,0 +1,596 @@
+{
+  "COPS01-001": {
+    "id": "COPS01-001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zeus, God of Olympus",
+        "type": "God",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Zeus, God Of Olympus.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zeus, God of Olympus",
+    "type": "God",
+    "cost": 0,
+    "God": true,
+    "Pantheon": "Greek"
+  },
+  "COPS01-002": {
+    "id": "",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Acolyte of Lightning",
+        "type": "Unit",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Acolyte of Lightning.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Acolyte of Lightning",
+    "type": "Unit",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-003": {
+    "id": "COPS01-003",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Boon of Zeus",
+        "type": "Boon",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Boon of Zeus.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Boon of Zeus",
+    "type": "Boon",
+    "cost": "4",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-004": {
+    "id": "COPS01-004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Divinity of Lightning",
+        "type": "Spell",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Divinity of Lightning.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Divinity of Lightning",
+    "type": "Spell",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-005": {
+    "id": "COPS01-005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Greek Devotion",
+        "type": "Devotion",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Greek Devotion.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Greek Devotion",
+    "type": "Devotion",
+    "cost": 0,
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-006": {
+    "id": "COPS01-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Increased Divinity of Lightning",
+        "type": "Spell",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Increased Divinity of Lightning.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Increased Divinity of Lightning",
+    "type": "Spell",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-007": {
+    "id": "COPS01-007",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lightning Bolt",
+        "type": "Spell",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Lighting Bolt.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lightning Bolt",
+    "type": "Spell",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-008": {
+    "id": "COPS01-008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lightning Bull",
+        "type": "Unit",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Lightning Bull.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lightning Bull",
+    "type": "Unit",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-009": {
+    "id": "COPS01-009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lightning Eagle",
+        "type": "Unit",
+        "cost": "4",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Lightning Eagle.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lightning Eagle",
+    "type": "Unit",
+    "cost": "4",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-010": {
+    "id": "COPS01-010",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mount Olympus",
+        "type": "Relic",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Mount Oympus.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mount Olympus",
+    "type": "Relic",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-011": {
+    "id": "COPS01-011",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Spell Count",
+        "type": false,
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Spell Count.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spell Count",
+    "type": false,
+    "cost": 0,
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-012": {
+    "id": "COPS01-012",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Twin Bolt",
+        "type": "Spell",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Twin Bolt.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Twin Bolt",
+    "type": "Spell",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-013": {
+    "id": "COPS01-013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zeus, Heavenly Protector",
+        "type": "Unit",
+        "cost": "6",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Zeus, Heavenly Protector.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zeus, Heavenly Protector",
+    "type": "Unit",
+    "cost": "6",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-014": {
+    "id": "COPS01-014",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zeus, Prideful",
+        "type": "Unit",
+        "cost": "4",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Zeus, Prideful.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zeus, Prideful",
+    "type": "Unit",
+    "cost": "4",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS01-015": {
+    "id": "COPS01-015",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zeus, Wrath of the Storm",
+        "type": "Unit",
+        "cost": "10",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS01/Zeus, Wrath of the Storm.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zeus, Wrath of the Storm",
+    "type": "Unit",
+    "cost": "10",
+    "God": false,
+    "Pantheon": "Greek"
+  },
+  "COPS02-001": {
+    "id": "COPS02-001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Osiris, Lord of the Dead",
+        "type": "God",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Osiris, Lord of the Dead.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Osiris, Lord of the Dead ",
+    "type": "God",
+    "cost": 0,
+    "God": true,
+    "Pantheon": ""
+  },
+  "COPS02-002": {
+    "id": "COPS02-002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Acolyte of the Dead",
+        "type": "Unit",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Acolyte of the Dead.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Acolyte of the Dead",
+    "type": "Unit",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-003": {
+    "id": "COPS02-003",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Boon of Osiris",
+        "type": "Boon",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Boon of Osiris.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Boon of Osiris",
+    "type": "Boon",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-004": {
+    "id": "COPS02-004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Body of Osiris",
+        "type": "Unit",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Body of Osiris.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Body of Osiris",
+    "type": "Unit",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-005": {
+    "id": "COPS02-005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crown of Osiris",
+        "type": "Unit",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Crown of Osiris.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crown of Osiris",
+    "type": "Unit",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-006": {
+    "id": "COPS02-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Divinity of the Dead",
+        "type": "Spell",
+        "cost": "1",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Divinity of the Dead.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Divinity of the Dead",
+    "type": "Spell",
+    "cost": "1",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-007": {
+    "id": "COPS02-007",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Duat",
+        "type": "Relic",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Duat.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Duat",
+    "type": "Relic",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-008": {
+    "id": "COPS02-008",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Egyptian Devotion",
+        "type": "Devotion",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Egyption Devotion.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Egyptian Devotion",
+    "type": "Devotion",
+    "cost": 0,
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-009": {
+    "id": "COPS02-009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Embalm",
+        "type": "Spell",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Embalm.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Embalm",
+    "type": "Spell",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-010": {
+    "id": "COPS02-010",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Heart of Osiris",
+        "type": "Unit",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Heart of Osiris.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heart of Osiris",
+    "type": "Unit",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-011": {
+    "id": "COPS02-011",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Increased Divinity of the Dead",
+        "type": "Spell",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Increased Divinity of the Dead.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Increased Divinity of the Dead",
+    "type": "Spell",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-012": {
+    "id": "COPS02-012",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Mummy Token",
+        "type": "Unit",
+        "cost": 0,
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Mummy Token.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mummy Token",
+    "type": "Unit",
+    "cost": 0,
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-013": {
+    "id": "COPS02-013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nekhakha - Flail",
+        "type": "Relic",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Nekhakha - Flail.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nekhakha - Flail",
+    "type": "Relic",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-014": {
+    "id": "COPS02-014",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Heka - Crook ",
+        "type": "Relic",
+        "cost": "3",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Heka - Crook.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heka - Crook ",
+    "type": "Relic",
+    "cost": "3",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-015": {
+    "id": "COPS02-015",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Osiris, Benevolent",
+        "type": "Unit",
+        "cost": "2",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Osiris, Benevolent.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Osiris, Benevolent",
+    "type": "Unit",
+    "cost": "2",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-016": {
+    "id": "COPS02-016",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Osiris, King Reborn",
+        "type": "Unit",
+        "cost": "10",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Osiris, King Reborn.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Osiris, King Reborn",
+    "type": "Unit",
+    "cost": "10",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-017": {
+    "id": "COPS02-017",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Osiris, Tender of the Afterlife",
+        "type": "Unit",
+        "cost": "4",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Osiris, Tender of the Afterlife.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Osiris, Tender of the Afterlife",
+    "type": "Unit",
+    "cost": "4",
+    "God": false,
+    "Pantheon": "Egyptian"
+  },
+  "COPS02-018": {
+    "id": "COPS02-018",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Weight of the Heart",
+        "type": "Spell",
+        "cost": "9",
+        "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Weight of the Heart.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Weight of the Heart",
+    "type": "Spell",
+    "cost": "9",
+    "God": false,
+    "Pantheon": "Egyptian"
+  }
+}
