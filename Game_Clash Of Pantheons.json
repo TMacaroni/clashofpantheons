@@ -32,7 +32,7 @@
     "Clash": {
       "mulligan": {
         "info": "Don't like your hand? The God have blessed you with a second chance. ",
-        "startingHandSize": 7,
+        "startingHandSize": "5",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -58,10 +58,11 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "god_area",
-          "devotiondeck",
+          "God",
+          "Devotion",
           "devotionarea",
-          "field"
+          "field",
+          "boon"
         ],
         "layout": {
           "direction": "row",
