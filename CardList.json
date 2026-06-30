@@ -397,7 +397,7 @@
   },
   "COPS02-008": {
     "id": "COPS02-008",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "Egyptian Devotion",
