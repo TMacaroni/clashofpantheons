@@ -1,0 +1,194 @@
+{
+  "name": "Clash Of Pantheons",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "If you need help, PM TMacaroni on Discord",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "https://tmacaroni.github.io/clashofpantheons/CardList.json",
+    "cardBack": "https://tmacaroni.github.io/clashofpantheons/cardback.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "God",
+      "Unit",
+      "Relic",
+      "Spell",
+      "Boon",
+      "Devotion"
+    ],
+    "formats": [
+      {
+        "title": "Clash",
+        "gameplay": "Clash",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Clash": {
+      "mulligan": {
+        "info": "Don't like your hand? The God have blessed you with a second chance. ",
+        "startingHandSize": 7,
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [
+        {
+          "name": "Mummy Token",
+          "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Mummy Token.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "god_area",
+          "devotiondeck",
+          "devotionarea",
+          "field"
+        ],
+        "layout": {
+          "direction": "row",
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": "11vh",
+                "margin-left": "11vh"
+              },
+              "content": [
+                {
+                  "section": "God"
+                },
+                {
+                  "section": "boonarea"
+                },
+                {
+                  "section": "Devotion"
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "margin-right": "22vh"
+              },
+              "content": [
+                {
+                  "section": "field"
+                },
+                {
+                  "section": "devotionarea"
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "God",
+          "Devotion"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Devotion": {
+            "title": "Devotion",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "boon": {
+            "title": "boon",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "boon",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "devotionarea": {
+            "title": "devotionarea",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "field": {
+            "title": "field",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "field",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "God": {
+            "title": "God",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "God Zone",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
