@@ -110,7 +110,7 @@
           "Unit": "field",
           "Boon": "boon",
           "Relic": "field",
-          "Spell": "Pile",
+          "Spell": "Stack",
           "Devotion":"devotionarea"
         },
         "autoPlayFromStack": {
@@ -121,7 +121,7 @@
             "title": "Devotion",
             "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "START",
+            "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
@@ -152,7 +152,7 @@
           "devotionarea": {
             "title": "devotionarea",
             "isHidden": "no",
-            "height": "BIG",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -168,7 +168,7 @@
           "field": {
             "title": "field",
             "isHidden": "no",
-            "height": "BIG",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
