@@ -34,6 +34,7 @@
         "info": "Don't like your hand? The God have blessed you with a second chance. ",
         "startingHandSize": "5",
         "drawNewHand": true,
+        "max":1,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
@@ -105,13 +106,21 @@
           "God",
           "Devotion"
         ],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromHand": {
+          "Unit": "field",
+          "Boon": "boon",
+          "Relic": "field",
+          "Spell": "Pile",
+          "Devotion":"devotionarea"
+        },
+        "autoPlayFromStack": {
+          "Spell": "Discard"
+        },
         "sectionsDict": {
           "Devotion": {
             "title": "Devotion",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -143,7 +152,7 @@
           "devotionarea": {
             "title": "devotionarea",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -159,7 +168,7 @@
           "field": {
             "title": "field",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -175,7 +184,7 @@
           "God": {
             "title": "God",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
