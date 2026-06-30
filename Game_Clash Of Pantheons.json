@@ -34,10 +34,12 @@
         "info": "Don't like your hand? The God have blessed you with a second chance. ",
         "startingHandSize": "5",
         "drawNewHand": true,
-        "max":1,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
+      "mulliganCount": {
+          "max": 1
+        },
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
@@ -47,10 +49,6 @@
       "defaultNotes": "",
       "tokens": [
         {
-          "name": "Mummy Token",
-          "image": "https://tmacaroni.github.io/clashofpantheons/COPS02/Mummy Token.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
         }
       ],
       "countersStartingValues": [
@@ -122,6 +120,7 @@
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
+            "drawPerTurn": 1,
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
